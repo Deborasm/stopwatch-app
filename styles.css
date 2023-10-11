@@ -2,17 +2,23 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5d7dc;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('hori.jpg');
+    background-size: 100% 350%;
+    background-repeat: no-repeat;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 34px;
     color: #ff6f61;
     margin-bottom: 20px;
 }
@@ -30,29 +36,27 @@ body {
     color: #ff6f61;
 }
 
+.button-container {
+    margin-top: 30px;
+    
+}
+
 .button {
     font-size: 18px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.pink {
     background-color: #ff6f61;
     color: #fff;
     margin: 0 10px;
+    transition: background-color 0.3s;
 }
 
-button:hover {
+.button:hover {
     background-color: #ff495c;
 }
 
-button:active {
+.button:active {
     background-color: #ff303c;
-}
-body {
-    background-image: url('hori.jpg');
-    background-size: 100% 350%;
-    background-repeat: no-repeat;
 }
