@@ -51,3 +51,8 @@ button:hover {
 button:active {
     background-color: #ff303c;
 }
+body {
+    background-image: url('hori.jpg');
+    background-size: 100% 350%;
+    background-repeat: no-repeat;
+}
