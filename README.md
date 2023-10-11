@@ -17,3 +17,4 @@ Para zerar o tempo, clique no botão "Reiniciar".
 Este projeto pode ser facilmente incorporado em outros aplicativos da web ou usado como uma ferramenta independente para rastrear o tempo decorrido em várias atividades.
 
 Sinta-se à vontade para personalizar o design e as funcionalidades de acordo com suas necessidades.
+https://deborasm.github.io/stopwatch-app/
